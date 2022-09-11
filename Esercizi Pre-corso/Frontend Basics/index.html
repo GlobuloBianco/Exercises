@@ -1,0 +1,74 @@
+<!-- Crea una pagina di registrazione per un app di music streaming!
+Crea una web page con un form al suo interno per raccogliere dati da parte dell’utente.
+Il form deve contenere degli input fields per ottenere le seguenti informazioni:
+
+nome (con un type="text")
+cognome (con un type="text")
+indirizzo email (con un type="email")
+password (con un type="password")
+data di nascita (con un type="date")
+numero di telefono (con un type="number")
+qualche checkbox per selezionare i propri gusti musicali (ciascuna con un type="checkbox")
+accettazione dei termini e condizioni (con un type="radio")
+bottone type="submit" con la scritta “Invia registrazione” che una volta cliccato faccia apparire un popup con la scritta “Registrazione inviata!” -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend basics</title>
+</head>
+<body>
+    <form>
+        <div>
+            <input type="text" placeholder="Il tuo nome">
+        </div>
+
+        <div>
+            <input type="text" placeholder="Il tuo cognome">
+        </div>
+
+        <div>
+            <input type="email" placeholder="Inserisci la tua mail">
+        </div>
+
+        <div>
+            <input type="password" placeholder="Inserisci la password">
+        </div>
+
+        <div>
+            <input type="date">
+        </div>
+
+        <div>
+            <input type="number" placeholder="Il tuo numero di telefono">
+        </div>
+
+        <div>
+            <p>Genere musicale</p>
+        </div>
+
+        <div>
+            <input type="checkbox">Pop
+        </div>
+
+        <div>
+            <input type="checkbox">Rock
+        </div>
+
+        <div>
+            <input type="checkbox">Rap
+        </div>
+
+        <div>
+            <input type="radio"> Termini e condizioni
+        </div>
+
+        <div>
+            <button type="submit" onclick=" alert('Registrazione Inviata!') "> Invia registrazione </button>
+        </div>
+    </form>
+</body>
+</html>

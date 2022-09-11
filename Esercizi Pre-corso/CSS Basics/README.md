@@ -1,0 +1,1 @@
+Le immagini prese non sono degli autori che ho dichiarato sotto perché non riuscivo a trovare gli autori originali, quindi ho preso nomi d'autori di fotografi italiani con il loro link corrispondente :)
