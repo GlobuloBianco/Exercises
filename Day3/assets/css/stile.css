@@ -1,0 +1,135 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* HEADER--------------------------------------- */
+header {
+    background-color: #489ec2;
+    padding: 1em;
+    box-shadow: 0px 5px #367591;
+}
+
+h1, h2 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin: 1.5rem;
+}
+
+header h1 {
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    font-weight: 400;
+}
+
+header span {
+    background-color: #ffffff;
+    color: #489ec2;
+}
+/* MAIN----------------------------------------- */
+.contentStart {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+main figcaption {
+    margin: 1rem;
+}
+
+/* box image info personale------↓ */
+#profilo {
+    background-color: #ffffff;
+    padding: 4px;
+
+    box-shadow: 0 0 0 1px #4b4b4b;
+}
+/* ------------------------------↑ */
+address {
+    padding: 0 5em;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5em;
+    font-style: normal;
+}
+
+a:link, a:visited {
+    color: red;
+}
+
+/* Titolo dei content------------------------------------------- */
+
+main h2{
+    padding-top: 10px;
+    color: #489ec2;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    font-size: 2em;
+}
+
+main p, h3, dl {
+    margin: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+    line-height: 2em;
+}
+
+hr {
+    border-top: 1px dashed;
+    margin: 1.5em;
+}
+
+main h3 {
+    font-size: 1.4em;
+}
+
+/* Citazione----------------------------------------- */
+
+blockquote {
+    background-color: #c5c5c5;
+    margin: 0 3em;
+    padding: 0.2em;
+    border-radius: 20px;
+}
+
+/* Content----------------------------------------- */
+
+strong {
+    color: #489ec2;
+}
+
+mark {
+    background-color: #489ec2;
+    color: white;
+}
+
+ul {
+    margin: 0 5em;
+    line-height: 1.5em;
+}
+
+dd {
+    margin: 0 2em;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #393939;
+    color: white;
+    text-align: center;
+    line-height: 2em;
+    padding: 1em;
+    box-shadow: 0px -5px #367591;
+}
+
+kbd {
+    color: yellow;
+    font-style: italic;
+    font-weight: bold;
+    /* padding: 1em; */
+}
+
+small {
+    color: #b2b2b2;
+}
+
+/* Che bel casino che ho fatto 😂 */
