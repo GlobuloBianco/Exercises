@@ -1,0 +1,238 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-image: url("/assets/img/sfondo.png");
+    background-repeat: repeat;
+    background-size: 120%;
+    background-attachment: fixed;
+    background-position: center bottom;
+    font-family: 'Poppins', sans-serif;
+}
+/* HEADER Intro ------------------------------------- */
+header {
+    background: linear-gradient(0deg, #25668e 0%, #3a93b8 100%);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px #4b4b4b;
+    margin: 1.2em;
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 1.1em;
+    padding: 2em;
+    font-weight: 500;
+}
+
+header a:link, header a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+body > hr {
+    display: none;
+}
+/* HEADER Lista --------------------------------------*/
+header p, header li {
+    color: white;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+
+header img {
+    height: 6rem;
+}
+
+header p {
+    padding: 0.7rem;
+}
+
+header li:before {
+    content: "\21D2 \2006";
+}
+
+header li:after {
+    content: "\2006 \21D0";
+}
+
+/* MAIN  Intro --------------------------------------*/
+main {
+    background: white;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px #4b4b4b;
+    margin: 1.2em;
+    padding: 1.5em;
+}
+
+main h1 {
+    font-size: 2em;
+    line-height: 1.5em;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
+.icon {
+    width: 13px;
+}
+
+.gray {
+    color: gray;
+    margin-bottom: 1em;
+}
+/* MAIN  Liste --------------------------------------*/
+main p, main li, main h2, main caption{
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+main strong {
+    color: rgb(167, 0, 167);
+}
+
+main li {
+    list-style-type: disc;
+    margin: 0.3em 1.5em;
+    font-size: 1.1em;
+    text-transform: initial;
+    color: black;
+}
+
+main code {
+    background-color: #e6e6e6;
+    border: 2px solid #8e8e8e;
+    border-radius: 5px;
+    padding: 2px 0;
+}
+
+main h2 {
+    margin-top: 1em;
+    font-weight: normal;
+}
+
+main ol {
+    margin: 2em 0;
+}
+
+main ol li {
+    list-style-type: decimal;
+}
+
+/* MAIN  tabella --------------------------------------*/
+main caption {
+    margin-top: 2em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+main th {
+    background-color: #3970dd;
+    padding: 1em;
+    border: 1px solid #ffffff23;
+    color: white;
+    font-weight: normal;
+    vertical-align: bottom;
+}
+
+main tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+main td {
+    padding: 1em;
+    text-align: center;
+}
+
+main table {
+    border-bottom: 2px solid #3970dd;
+    margin-bottom: 2em;
+}
+/* MAIN  content --------------------------------------*/
+main a:link, main a:visited {
+    color: #3a93b8;
+}
+
+main iframe {
+    width: 100%;
+    height: 200px;
+    margin: 2em auto;
+    border-radius: 15px;
+}
+/* FORM -----------------------------------------------*/
+main section {
+    background-color: #e6e6e6;
+    padding: 1.5em 1.5em;
+}
+
+main section h2 {
+    margin: 0;
+    padding-bottom: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+main input {
+    margin: 1em auto;
+    border: none;
+    border-bottom: 1px dashed #000000;
+    width: 70%;
+    padding: 8px 5px;
+}
+
+main button {
+    background-color: #3970dd;
+    padding: 7px 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+/* ELEMENTI NELL' ASIDE */
+aside h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-bottom: 1.3em;
+}
+
+.articolo {
+    background-color: #f2f2f2;
+    margin-bottom: 1.2em;
+    border: 2px solid #c9c9c979;
+    padding: 1em;
+}
+
+aside a:link, aside a:visited {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.data {
+    padding-top: 1.5em;
+    font-size: 0.8em;
+    text-align: end;
+}
+/* FOOTER */
+footer {
+    background: linear-gradient(0deg, #1e5475 0%, #327e9e 100%);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 4px #4b4b4b;
+    margin: 1.2em;
+    padding-top: 1em;
+    padding-bottom:  2.5em;
+    padding-right: 1em;
+    padding-left: 1em;
+    text-align: center;
+    line-height: 1.3em;
+    color: white;
+    font-size: 1em;
+}
+
+footer p {
+    padding-bottom: 1.5em;
+}
+
+footer a:link, footer a:visited {
+    color: magenta;
+    font-style: normal;
+    font-weight: 700;
+}
